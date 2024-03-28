@@ -16,3 +16,9 @@ Para configurar el archivo, debemos saber que existen ciertos formatos de patron
 ### :question: 2.3c.- Revise los archivos subidos en su repositorio de github. ¿Qué archivos vé? ¿Cuál cree que no hace falta que esté?
 
 :black_nib: Se pueden ver tres archivos: `README.md`, `tp1_1.cpp`, `tp1_1.exe`. En este caso, considero que no es necesario el archivo _ejecutable_.
+
+### :question: 2.3g.- Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué? Responder en el archivo readme.md
+
+:black_nib: Hay que entender que los **punteros**, son variables como cualquier otra, que se encargan de almacenar _las direcciones de memoria de otras variables_. En el apartado _2_, se pide mostrar ese valor almacenado por el puntero (el cual es la dirección de memoria de la variable "num"), y en el _3_ la dirección de memoria de la variable en sí. Por consiguiente, ambos valores mostrados por pantalla son iguales. 
+
+En el apartado _4_ se obtiene la propia dirección de memoria del puntero, ya que, como se mencionó anteriormente, los punteros son _variables_, y ocupan un espacio en la memoria, obteniendo su propia dirección. Siendo así, al tener su propia dirección, el resultado obtenido no es igual a los anteriores.
