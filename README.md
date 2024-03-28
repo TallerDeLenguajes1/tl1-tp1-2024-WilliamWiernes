@@ -12,3 +12,7 @@ Es conveniente incluirlo debido a que nos permite:
 En cuanto a cuándo se debe realizar, lo mejor es hacerlo al comenzar cualquier proyecto, permitiendonos evitar problemas a futuro, debido a que los archivos que ya están siendo traqueados por **GIT** no se ven afectados. Sin embargo no exiten problemas si decimos agregarlo más adelante, aunque hay que tener algunas consideraciones en estos casos. [CONSIDERACIONES](https://git-scm.com/docs/gitignore#_notes).
 
 Para configurar el archivo, debemos saber que existen ciertos formatos de patrones a seguir. Por ejemplo, básicamente para ignorar un archivo _ignorado.txt_, bastaría con colocar su nombre y extensión dentro del `.gitignore`. Similar si deseamos hacerlo con un directorio, debiendo agregar su nombre junto a una barra diagonal _directorioIgnorado/_. [MAS PATRONES](https://git-scm.com/docs/gitignore#_pattern_format).
+
+### :question: 2.3c.- Revise los archivos subidos en su repositorio de github. ¿Qué archivos vé? ¿Cuál cree que no hace falta que esté?
+
+:black_nib: Se pueden ver tres archivos: `README.md`, `tp1_1.cpp`, `tp1_1.exe`. En este caso, considero que no es necesario el archivo _ejecutable_.
